@@ -1,0 +1,107 @@
+
+.content li{
+    color: #787978;
+}
+.header-box{
+    height: auto;
+    transform: translateY(-2.14rem);
+    opacity: 0;
+    width:100%;
+}
+.header-box,p.myid{
+    margin-bottom: 2.86rem;
+    text-align: center;
+}
+.header-box img{
+    width: 8.57rem;
+    height: 8.57rem;
+    border-radius: 50%;
+}
+.fadein{
+    padding-top: 20px;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transition: 1s;
+}
+p.myid{
+    font-size: 2.6rem;
+    font-weight: 400;
+    padding: 0 0.71rem;
+    color: #948C76;
+    letter-spacing: 0.1em;
+    background: #F7F3EE;
+    display:inline-block;
+    margin-top: 0;
+    height: 2.71rem;
+    line-height: 2.71rem;
+}
+
+.my-sort a{
+    margin: 0 1rem;
+    font-size: 2.6rem;
+    color: #000;
+}
+.my-sort {
+    margin: 0 0 5.71rem ;
+}
+
+.my-resume img{
+    max-width: 80%;
+    margin: 10%;
+}
+
+.iscas img{
+    margin-top: 40%;
+}
+
+.reference a {
+    color: #00f;
+}
+
+
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 980px){
+    .anima-box li:nth-child(2n+1){
+        clear: both;
+    }
+}
+@media screen and (max-width: 768px){
+    .my-sort, #artical-detail h4{
+        margin-bottom: 3em;
+    }
+    .ar-content{
+        padding-bottom: 4em;
+    }
+}
+@media only screen and (max-width:450px) {
+    .art-detail{
+        max-height: 5em;
+        line-height: 18px;
+        overflow: hidden;
+    }
+    .ar-content{
+        padding-left: 1.5em;
+    }
+    .my-artical {
+        padding-left: 5%;
+    }
+}
