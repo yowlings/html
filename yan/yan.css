@@ -59,4 +59,11 @@ p.myid{
     color: #00f;
 }
 
+.pdf-link a {
+    color: #0a0;
+    font-size: 28px;
+
+}
+.pdf-link {
+    text-align: center;
 
